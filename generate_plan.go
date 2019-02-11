@@ -32,10 +32,6 @@ type RepaymentItem struct {
 	RemainingOutstandingPrincipal float64 `json:"remainingOutstandingPrincipal"`
 }
 
-type RepaymentResponse struct {
-	Items []RepaymentItem
-}
-
 func GenerateRepaymentPlan(duration float64, rate float64, iOutPrincipal float64, start string) []RepaymentItem {
 	pv := getAnnuity(duration, rate, iOutPrincipal)
 	rOutPrincipal, principal := 0.0, 0.0
