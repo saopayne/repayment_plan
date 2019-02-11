@@ -4,7 +4,6 @@ import (
 	"log"
 	"math"
 	"strconv"
-	"strings"
 	"time"
 )
 
@@ -32,8 +31,8 @@ type RepaymentItem struct {
 	RemainingOutstandingPrincipal float64 `json:"remainingOutstandingPrincipal"`
 }
 
-func GenerateRepaymentPlan(duration float64, rate float64, iOutPrincipal float64, start string) []RepaymentItem {
-	pv := getAnnuity(duration, rate, iOutPrincipal)
+func GenerateRepaymentPlan(duration float64, nominalRate float64, iOutPrincipal float64, start string) []RepaymentItem {
+	annuity := calculateAnnuity(duration, nominalRate, iOutPrincipal)
 	rOutPrincipal, principal := 0.0, 0.0
 	var repaymentItems []RepaymentItem
 
@@ -41,21 +40,21 @@ func GenerateRepaymentPlan(duration float64, rate float64, iOutPrincipal float64
 		if date != start {
 			iOutPrincipal -= principal
 		}
-		roundedValue := Round(((rate*DaysInMonth*iOutPrincipal)/DaysInYear)/100, 1, 2)
-		principal = pv - roundedValue
+		interest := (nominalRate * DaysInMonth * iOutPrincipal) / DaysInYear/100.00
+		principal = annuity - interest
 		rOutPrincipal = iOutPrincipal - principal
 		if rOutPrincipal < 0 {
-			pv += rOutPrincipal
-			principal = pv - roundedValue
+			annuity += rOutPrincipal
+			principal = annuity - interest
 			rOutPrincipal = 0
 		}
 		repaymentItems = append(repaymentItems, RepaymentItem{
-			pv,
+			RoundOff(annuity, 1,2),
 			date,
-			iOutPrincipal,
-			roundedValue,
-			removeTrailingZero(principal),
-			removeTrailingZero(rOutPrincipal),
+			RoundOff(iOutPrincipal,1, 2),
+			RoundOff(interest, 1, 2),
+			RoundOff(principal, 1, 2),
+			RoundOff(rOutPrincipal, 1, 2),
 		})
 	}
 
@@ -101,9 +100,9 @@ func generateDates(t string, n int) chan string {
 	return ch
 }
 
-func Round(val float64, roundOn float64, places int) (roundedValue float64) {
+func RoundOff(val float64, roundOn float64, decimalPlaces int) (roundedValue float64) {
 	var round float64
-	pow := math.Pow(10, float64(places))
+	pow := math.Pow(10, float64(decimalPlaces))
 	digit := pow * val
 	_, div := math.Modf(digit)
 	if div >= roundOn {
@@ -116,10 +115,6 @@ func Round(val float64, roundOn float64, places int) (roundedValue float64) {
 	return roundedValue
 }
 
-func floatToString(inputNum float64) string {
-	return strconv.FormatFloat(inputNum, 'f', 6, 64)
-}
-
 func stringToFloat(input string) float64 {
 	if s, err := strconv.ParseFloat(input, 64); err == nil {
 		return s
@@ -127,20 +122,8 @@ func stringToFloat(input string) float64 {
 	return 0
 }
 
-func removeTrailingZero(value float64) float64 { // Remove Tailing zero
-	fv := floatToString(value)
-	if strings.Contains(fv, ".") {
-		if fv[len(fv)-1:] == "0" || fv[len(fv)-1:] == "." {
-			if s, err := strconv.ParseFloat(fv[:len(fv)-1], 64); err == nil {
-				return s
-			}
-		}
-	}
-	return stringToFloat(fv)
-}
-
-func getAnnuity(duration float64, rate float64, principal float64) float64 {
-	m := (principal * rate / 100 / MonthsInYear) / (1 - math.Pow(1+rate/100/MonthsInYear, -duration))
-	return Round(m, .5, 2)
+func calculateAnnuity(duration float64, nominalRate float64, principal float64) float64 {
+	m := (principal * nominalRate / 100.00 / MonthsInYear) / (1 - math.Pow(1 + nominalRate / 100.00 / MonthsInYear, -duration))
+	return RoundOff(m, .5, 2)
 }
 
