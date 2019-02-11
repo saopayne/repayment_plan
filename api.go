@@ -1,11 +1,11 @@
 package main
 
 import (
+	"encoding/csv"
 	"encoding/json"
+	"fmt"
 	"io"
 	"net/http"
-	"encoding/csv"
-	"fmt"
 	"os"
 )
 
@@ -41,7 +41,7 @@ func jsonWriter(w http.ResponseWriter, r *http.Request, items []RepaymentItem, e
 func exportResponseToCsv(items []RepaymentItem) {
 	f, err := os.Create("./lendico_generated_plan.csv")
 	if err != nil {
-		fmt.Println(err)
+		panic(err)
 	}
 
 	defer f.Close()
