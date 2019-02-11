@@ -34,11 +34,15 @@ $ sh build.sh
 
 ### Making a HTTP POST request
 
-Using any HTTP client, make a POST request to the URL:
+Using any HTTP client, make a POST request to the URL with an optional format query with either (csv or json):
 
 ```
-http://localhost:8080/generate-plan?format=csv
+http://localhost:8080/generate-plan?format=json
 ```
+
+> `?format=csv` generates the repayment plan into a file in the project root directory
+
+> `?format=json` returns the repayment plan as a json
 
 Specify the payload of the POST request with a sample below:
 
@@ -51,7 +55,7 @@ Specify the payload of the POST request with a sample below:
 }
 ```
 
-Or using the effective CURL:
+Or using the ever effective CURL:
 
 ```sh
 curl -d '{"loanAmount": "5000","nominalRate": "5.0","duration": 24, "startDate": "2018-01-01T00:00:01Z"}' -X POST http://localhost:8080/generate-plan?format=json
@@ -259,7 +263,5 @@ curl -d '{"loanAmount": "5000","nominalRate": "5.0","duration": 24, "startDate":
     }
 ]
 ```
-
-A cherry :), there's an optional query param (?format=csv) that can be used to export as CSV.
 
   
