@@ -45,4 +45,3 @@ func GeneratePlanHandler(writer http.ResponseWriter, request *http.Request) {
 
 	jsonWriter(writer, request, response, ExportTypeJSON)
 }
-

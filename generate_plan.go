@@ -40,7 +40,7 @@ func GenerateRepaymentPlan(duration float64, nominalRate float64, iOutPrincipal 
 		if date != start {
 			iOutPrincipal -= principal
 		}
-		interest := (nominalRate * DaysInMonth * iOutPrincipal) / DaysInYear/100.00
+		interest := (nominalRate * DaysInMonth * iOutPrincipal) / DaysInYear / 100.00
 		principal = annuity - interest
 		rOutPrincipal = iOutPrincipal - principal
 		if rOutPrincipal < 0 {
@@ -49,9 +49,9 @@ func GenerateRepaymentPlan(duration float64, nominalRate float64, iOutPrincipal 
 			rOutPrincipal = 0
 		}
 		repaymentItems = append(repaymentItems, RepaymentItem{
-			RoundOff(annuity, 1,2),
+			RoundOff(annuity, 1, 2),
 			date,
-			RoundOff(iOutPrincipal,1, 2),
+			RoundOff(iOutPrincipal, 1, 2),
 			RoundOff(interest, 1, 2),
 			RoundOff(principal, 1, 2),
 			RoundOff(rOutPrincipal, 1, 2),
@@ -123,7 +123,6 @@ func stringToFloat(input string) float64 {
 }
 
 func calculateAnnuity(duration float64, nominalRate float64, principal float64) float64 {
-	m := (principal * nominalRate / 100.00 / MonthsInYear) / (1 - math.Pow(1 + nominalRate / 100.00 / MonthsInYear, -duration))
+	m := (principal * nominalRate / 100.00 / MonthsInYear) / (1 - math.Pow(1+nominalRate/100.00/MonthsInYear, -duration))
 	return RoundOff(m, .5, 2)
 }
-
