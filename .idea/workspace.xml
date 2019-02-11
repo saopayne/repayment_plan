@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c3c89fe-a000-440b-8b0e-2121870d713d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/generate_plan_test.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/api.go" afterPath="$PROJECT_DIR$/api.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,20 +19,46 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-                <folding />
+              <first_editor relative-caret-position="629">
+                <caret line="263" column="0" lean-forward="true" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+                <folding>
+                  <marker date="1549918986349" expanded="true" signature="1890:7779" ph="[...]" />
+                  <marker date="1549918986349" expanded="true" signature="1896:2134" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="2140:2378" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="2384:2625" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="2631:2872" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="2878:3118" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="3124:3365" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="3371:3612" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="3618:3859" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="3865:4106" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="4112:4353" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="4359:4599" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="4605:4846" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="4852:5093" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="5099:5338" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="5344:5584" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="5590:5829" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="5835:6075" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="6081:6320" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="6326:6564" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="6570:6808" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="6814:7051" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="7057:7295" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="7301:7539" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+                  <marker date="1549918986349" expanded="true" signature="7545:7777" ph="{&quot;borrowerPaymentAmount&quot;: 219.28...}" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generate_plan_test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="generate_plan_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generate_plan_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="41" column="78" lean-forward="false" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="78" />
+            <state relative-caret-position="510">
+              <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
               <folding>
                 <element signature="e#14#42#0" expanded="true" />
               </folding>
@@ -50,14 +76,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="api.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <state relative-caret-position="430">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
-                <element signature="e#14#59#0" expanded="true" />
+                <element signature="e#14#88#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lendico_generated_plan.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lendico_generated_plan.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,8 +101,8 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            <state relative-caret-position="120">
+              <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding>
                 <element signature="e#14#43#0" expanded="true" />
               </folding>
@@ -77,8 +113,8 @@
       <file leaf-file-name="generate_plan.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generate_plan.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+            <state relative-caret-position="1230">
+              <caret line="82" column="43" lean-forward="false" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
               <folding>
                 <element signature="e#14#58#0" expanded="true" />
               </folding>
@@ -104,12 +140,12 @@
       <list>
         <option value="$PROJECT_DIR$/data.go" />
         <option value="$PROJECT_DIR$/plan.go" />
-        <option value="$PROJECT_DIR$/api.go" />
         <option value="$PROJECT_DIR$/build.sh" />
         <option value="$PROJECT_DIR$/generate_plan.go" />
-        <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/generate_plan_test.go" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/api.go" />
       </list>
     </option>
   </component>
@@ -171,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestPlan in generate_plan_test.go">
+  <component name="RunManager" selected="Go Test.go test repayment_plan">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="repayment_plan" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -181,6 +217,15 @@
       <package value="repayment_plan" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="TestGenerateDates in generate_plan_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="repayment_plan" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="repayment_plan" />
+      <pattern value="^TestGenerateDates$" />
+    </configuration>
     <configuration name="TestPlan in generate_plan_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="repayment_plan" />
       <working_directory value="$PROJECT_DIR$" />
@@ -189,6 +234,15 @@
       <kind value="PACKAGE" />
       <package value="repayment_plan" />
       <pattern value="^TestPlan$" />
+    </configuration>
+    <configuration name="TestStringToFloat in generate_plan_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="repayment_plan" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="repayment_plan" />
+      <pattern value="^TestStringToFloat$" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="repayment_plan" />
@@ -206,14 +260,18 @@
       <kind value="PACKAGE" />
       <package value="repayment_plan" />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Go Test.go test repayment_plan" />
       <item index="1" class="java.lang.String" itemvalue="Go Test.TestPlan in generate_plan_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestGenerateDates in generate_plan_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestStringToFloat in generate_plan_test.go" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestPlan in generate_plan_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.go test repayment_plan" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Go Test.go test repayment_plan" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestStringToFloat in generate_plan_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestGenerateDates in generate_plan_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestPlan in generate_plan_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -221,43 +279,48 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestPlan_in_generate_plan_test_go - 2019.02.11 at 21h 27m 52s.xml">
-      <configuration name="TestPlan in generate_plan_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestGenerateDates_in_generate_plan_test_go - 2019.02.11 at 21h 30m 18s.xml">
+      <configuration name="TestGenerateDates in generate_plan_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestPlan_in_generate_plan_test_go - 2019.02.11 at 21h 28m 28s.xml">
-      <configuration name="TestPlan in generate_plan_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestGenerateDates_in_generate_plan_test_go - 2019.02.11 at 21h 31m 18s.xml">
+      <configuration name="TestGenerateDates in generate_plan_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestGenerateDates_in_generate_plan_test_go - 2019.02.11 at 21h 31m 35s.xml">
+      <configuration name="TestGenerateDates in generate_plan_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestGenerateDates_in_generate_plan_test_go - 2019.02.11 at 21h 31m 44s.xml">
+      <configuration name="TestGenerateDates in generate_plan_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestPlan_in_generate_plan_test_go - 2019.02.11 at 21h 29m 09s.xml">
       <configuration name="TestPlan in generate_plan_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_repayment_plan - 2019.02.11 at 21h 18m 43s.xml">
-      <configuration name="go test repayment_plan" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPlan_in_generate_plan_test_go - 2019.02.11 at 21h 29m 58s.xml">
+      <configuration name="TestPlan in generate_plan_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_repayment_plan - 2019.02.11 at 21h 21m 15s.xml">
-      <configuration name="go test repayment_plan" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPlan_in_generate_plan_test_go - 2019.02.11 at 21h 30m 11s.xml">
+      <configuration name="TestPlan in generate_plan_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_repayment_plan - 2019.02.11 at 21h 21m 40s.xml">
-      <configuration name="go test repayment_plan" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestStringToFloat_in_generate_plan_test_go - 2019.02.11 at 21h 36m 07s.xml">
+      <configuration name="TestStringToFloat in generate_plan_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_repayment_plan - 2019.02.11 at 21h 26m 06s.xml">
-      <configuration name="go test repayment_plan" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestStringToFloat_in_generate_plan_test_go - 2019.02.11 at 21h 36m 24s.xml">
+      <configuration name="TestStringToFloat in generate_plan_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_repayment_plan - 2019.02.11 at 21h 26m 23s.xml">
+    <history-entry file="go_test_repayment_plan - 2019.02.11 at 21h 42m 06s.xml">
       <configuration name="go test repayment_plan" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103174604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21903788" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3899693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2149437" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -275,10 +338,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21903788" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24725275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25588536" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103174604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -306,7 +369,33 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
+            <folding>
+              <marker date="1549918986349" expanded="true" signature="1890:7779" ph="[...]" />
+              <marker date="1549918986349" expanded="true" signature="1896:2134" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="2140:2378" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="2384:2625" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="2631:2872" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="2878:3118" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="3124:3365" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="3371:3612" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="3618:3859" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="3865:4106" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="4112:4353" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="4359:4599" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="4605:4846" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="4852:5093" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="5099:5338" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="5344:5584" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="5590:5829" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="5835:6075" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="6081:6320" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="6326:6564" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="6570:6808" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="6814:7051" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="7057:7295" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="7301:7539" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="7545:7777" ph="{&quot;borrowerPaymentAmount&quot;: 219.28...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -320,22 +409,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding>
-            <element signature="e#14#59#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="629">
+            <caret line="263" column="0" lean-forward="true" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+            <folding>
+              <marker date="1549918986349" expanded="true" signature="1890:7779" ph="[...]" />
+              <marker date="1549918986349" expanded="true" signature="1896:2134" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="2140:2378" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="2384:2625" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="2631:2872" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="2878:3118" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="3124:3365" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="3371:3612" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="3618:3859" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="3865:4106" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="4112:4353" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="4359:4599" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="4605:4846" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="4852:5093" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="5099:5338" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="5344:5584" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="5590:5829" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="5835:6075" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="6081:6320" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="6326:6564" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="6570:6808" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="6814:7051" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="7057:7295" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="7301:7539" ph="{&quot;borrowerPaymentAmount&quot;: 219.36...}" />
+              <marker date="1549918986349" expanded="true" signature="7545:7777" ph="{&quot;borrowerPaymentAmount&quot;: 219.28...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/generate_plan.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        <state relative-caret-position="1230">
+          <caret line="82" column="43" lean-forward="false" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
           <folding>
-            <element signature="e#14#43#0" expanded="true" />
+            <element signature="e#14#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -348,33 +464,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generate_plan.go">
+    <entry file="file://$PROJECT_DIR$/generate_plan_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+        <state relative-caret-position="510">
+          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
           <folding>
-            <element signature="e#14#58#0" expanded="true" />
+            <element signature="e#14#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generate_plan_test.go">
+    <entry file="file://$PROJECT_DIR$/lendico_generated_plan.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="41" column="78" lean-forward="false" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="78" />
+        <state relative-caret-position="240">
+          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding>
-            <element signature="e#14#42#0" expanded="true" />
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
