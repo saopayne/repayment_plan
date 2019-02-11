@@ -2,7 +2,7 @@
 
 1. Run "go get -u github.com/gorilla/mux"
 2. run "sh build.sh"
-3. curl POST -d {"loanAmount": "5000","nominalRate": "5.0","duration": 24, "startDate": "2018-01-01T00:00:01Z"} http://localhost:8080/generate-plan?format=json
+3. curl -d '{"loanAmount": "5000","nominalRate": "5.0","duration": 24, "startDate": "2018-01-01T00:00:01Z"}' -X POST http://localhost:8080/generate-plan?format=json
 
    curl POST -d {"loanAmount": "5000","nominalRate": "5.0","duration": 24, "startDate": "2018-01-01T00:00:01Z"} http://localhost:8080/generate-plan?format=csv
    
