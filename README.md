@@ -62,8 +62,8 @@ Specify the payload of the POST request with a sample below:
 Or using the ever effective CURL:
 
 ```sh
-curl -d '{"loanAmount": "5000","nominalRate": "5.0","duration": 24, "startDate": "2018-01-01T00:00:01Z"}' -X POST http://localhost:8080/generate-plan?format=json
-curl -d '{"loanAmount": "5000","nominalRate": "5.0","duration": 24, "startDate": "2018-01-01T00:00:01Z"}' -X POST http://localhost:8080/generate-plan?format=csv
+$ curl -d '{"loanAmount": "5000","nominalRate": "5.0","duration": 24, "startDate": "2018-01-01T00:00:01Z"}' -X POST http://localhost:8080/generate-plan?format=json
+$ curl -d '{"loanAmount": "5000","nominalRate": "5.0","duration": 24, "startDate": "2018-01-01T00:00:01Z"}' -X POST http://localhost:8080/generate-plan?format=csv
 ```
 
 
