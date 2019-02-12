@@ -29,9 +29,13 @@ Start the Go application
 
 ```sh
 $ cd /repayment_plan
-$ sh build.sh
+$ make build
 ```
 
+To view other commands:
+```nashorn js
+make help
+```
 ### Making a HTTP POST request
 
 Using any HTTP client, make a POST request to the URL with an optional format query with either (csv or json):
