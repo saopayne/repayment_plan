@@ -30,6 +30,7 @@ Start the Go application
 ```sh
 $ cd /repayment_plan
 $ make build
+$ ./bin/repayment_plan main.go
 ```
 
 To view other commands:
